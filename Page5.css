@@ -1,0 +1,70 @@
+.page5{
+    display: flex;
+}
+.symbol{
+    margin-top: 60%;
+    display: flex;
+    margin-left: 2400%;
+}
+   
+.sidebar{
+    display: flex;
+    width: 50%;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 70%;
+    height: 100px;
+    justify-content: space-between;
+    .Home{
+        margin-bottom: 100%
+
+    }
+    .Aboutme{
+        margin-left: 15%;
+        margin-top: 25%;
+        margin-bottom: 100%
+    
+    }
+    .Portfolio{
+        margin-left: 3%;
+        margin-top: 25%;
+    }
+}
+
+body {
+    margin: 0 10% 0 5%;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    margin-top: 10%;
+   
+    
+    /* place-items: ; */
+}
+
+.Contact{
+    display: flex;
+    background-color : #FF6226;
+    height: 144px; 
+    width: 1200px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 13%;
+    margin-left: auto;
+    margin-right: auto;
+
+
+}
+.footerimg{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+
+}
+
+.footerimg img{
+    width: 60px;
+    height: 60px;
+}

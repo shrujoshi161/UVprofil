@@ -1,0 +1,28 @@
+.frame{
+    display: flex;
+    
+}
+.img {
+    animation-duration: 5s;
+    display: block;
+    margin-top: 7%;
+    animation-name: Frame;
+    animation-duration: 4s;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    animation: img 4s linear infinite;
+
+  }
+  @keyframes img {
+   0%{
+    opacity: 0;
+   }
+   100%{
+    opacity: 1;
+    width: 100%;
+   }
+}

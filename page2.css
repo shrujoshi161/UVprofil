@@ -1,0 +1,30 @@
+
+.page2{
+    display: flex;
+    
+}
+.body{
+    display: flex;
+
+}
+.symbol{
+    display: flex;
+    margin-left: 90%;
+}
+.sidebar{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15%;
+    .Portfolio{
+        margin-top: 10%;
+        margin-bottom: 20%;
+    }
+}
+.content{
+    margin-top: -15.40%;
+    align-items: center;
+    place-items: center;
+    text-align: center;
+    font-size: 300%;
+}
